@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7E1B154168034DD00EE4CFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E1B153168034DD00EE4CFB /* UIKit.framework */; };
+		E7E1B156168034DD00EE4CFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E1B155168034DD00EE4CFB /* Foundation.framework */; };
+		E7E1B158168034DD00EE4CFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E1B157168034DD00EE4CFB /* CoreGraphics.framework */; };
+		E7E1B15E168034DD00EE4CFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7E1B15C168034DD00EE4CFB /* InfoPlist.strings */; };
+		E7E1B160168034DD00EE4CFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E1B15F168034DD00EE4CFB /* main.m */; };
+		E7E1B164168034DD00EE4CFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E1B163168034DD00EE4CFB /* AppDelegate.m */; };
+		E7E1B166168034DD00EE4CFB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E1B165168034DD00EE4CFB /* Default.png */; };
+		E7E1B168168034DD00EE4CFB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E1B167168034DD00EE4CFB /* Default@2x.png */; };
+		E7E1B16A168034DD00EE4CFB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E1B169168034DD00EE4CFB /* Default-568h@2x.png */; };
+		E7E1B2021680404800EE4CFB /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E1B2001680404800EE4CFB /* libcrypto.a */; };
+		E7E1B2031680404800EE4CFB /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E1B2011680404800EE4CFB /* libssl.a */; };
+		E7E1B332168043BC00EE4CFB /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E1B331168043BC00EE4CFB /* libstdc++.dylib */; };
+		E7E1B82D1680486700EE4CFB /* libPantomime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E1B21B1680431700EE4CFB /* libPantomime.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7E1B21A1680431700EE4CFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7E1B20F1680431600EE4CFB /* Pantomime.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = Pantomime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7E1B14F168034DD00EE4CFB /* PantominePop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PantominePop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E1B153168034DD00EE4CFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E7E1B155168034DD00EE4CFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E7E1B157168034DD00EE4CFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E7E1B15B168034DD00EE4CFB /* PantominePop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PantominePop-Info.plist"; sourceTree = "<group>"; };
+		E7E1B15D168034DD00EE4CFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7E1B15F168034DD00EE4CFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7E1B161168034DD00EE4CFB /* PantominePop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PantominePop-Prefix.pch"; sourceTree = "<group>"; };
+		E7E1B162168034DD00EE4CFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7E1B163168034DD00EE4CFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7E1B165168034DD00EE4CFB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E7E1B167168034DD00EE4CFB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E7E1B169168034DD00EE4CFB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E7E1B2001680404800EE4CFB /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "Pantomime/openssl/build/Release-iphoneos/libcrypto.a"; sourceTree = "<group>"; };
+		E7E1B2011680404800EE4CFB /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "Pantomime/openssl/build/Release-iphoneos/libssl.a"; sourceTree = "<group>"; };
+		E7E1B20F1680431600EE4CFB /* Pantomime.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pantomime.xcodeproj; path = Pantomime/Pantomime.xcodeproj; sourceTree = "<group>"; };
+		E7E1B331168043BC00EE4CFB /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7E1B14C168034DD00EE4CFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E1B82D1680486700EE4CFB /* libPantomime.a in Frameworks */,
+				E7E1B332168043BC00EE4CFB /* libstdc++.dylib in Frameworks */,
+				E7E1B2021680404800EE4CFB /* libcrypto.a in Frameworks */,
+				E7E1B2031680404800EE4CFB /* libssl.a in Frameworks */,
+				E7E1B154168034DD00EE4CFB /* UIKit.framework in Frameworks */,
+				E7E1B156168034DD00EE4CFB /* Foundation.framework in Frameworks */,
+				E7E1B158168034DD00EE4CFB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7E1B144168034DD00EE4CFB = {
+			isa = PBXGroup;
+			children = (
+				E7E1B20F1680431600EE4CFB /* Pantomime.xcodeproj */,
+				E7E1B159168034DD00EE4CFB /* PantominePop */,
+				E7E1B152168034DD00EE4CFB /* Frameworks */,
+				E7E1B150168034DD00EE4CFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7E1B150168034DD00EE4CFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7E1B14F168034DD00EE4CFB /* PantominePop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7E1B152168034DD00EE4CFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7E1B331168043BC00EE4CFB /* libstdc++.dylib */,
+				E7E1B2001680404800EE4CFB /* libcrypto.a */,
+				E7E1B2011680404800EE4CFB /* libssl.a */,
+				E7E1B153168034DD00EE4CFB /* UIKit.framework */,
+				E7E1B155168034DD00EE4CFB /* Foundation.framework */,
+				E7E1B157168034DD00EE4CFB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7E1B159168034DD00EE4CFB /* PantominePop */ = {
+			isa = PBXGroup;
+			children = (
+				E7E1B162168034DD00EE4CFB /* AppDelegate.h */,
+				E7E1B163168034DD00EE4CFB /* AppDelegate.m */,
+				E7E1B15A168034DD00EE4CFB /* Supporting Files */,
+			);
+			path = PantominePop;
+			sourceTree = "<group>";
+		};
+		E7E1B15A168034DD00EE4CFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7E1B15B168034DD00EE4CFB /* PantominePop-Info.plist */,
+				E7E1B15C168034DD00EE4CFB /* InfoPlist.strings */,
+				E7E1B15F168034DD00EE4CFB /* main.m */,
+				E7E1B161168034DD00EE4CFB /* PantominePop-Prefix.pch */,
+				E7E1B165168034DD00EE4CFB /* Default.png */,
+				E7E1B167168034DD00EE4CFB /* Default@2x.png */,
+				E7E1B169168034DD00EE4CFB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7E1B2101680431600EE4CFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7E1B21B1680431700EE4CFB /* libPantomime.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7E1B14E168034DD00EE4CFB /* PantominePop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7E1B16D168034DD00EE4CFB /* Build configuration list for PBXNativeTarget "PantominePop" */;
+			buildPhases = (
+				E7E1B14B168034DD00EE4CFB /* Sources */,
+				E7E1B14C168034DD00EE4CFB /* Frameworks */,
+				E7E1B14D168034DD00EE4CFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PantominePop;
+			productName = PantominePop;
+			productReference = E7E1B14F168034DD00EE4CFB /* PantominePop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7E1B146168034DD00EE4CFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Wang Lihui";
+			};
+			buildConfigurationList = E7E1B149168034DD00EE4CFB /* Build configuration list for PBXProject "PantominePop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7E1B144168034DD00EE4CFB;
+			productRefGroup = E7E1B150168034DD00EE4CFB /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E7E1B2101680431600EE4CFB /* Products */;
+					ProjectRef = E7E1B20F1680431600EE4CFB /* Pantomime.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E7E1B14E168034DD00EE4CFB /* PantominePop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E7E1B21B1680431700EE4CFB /* libPantomime.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPantomime.a;
+			remoteRef = E7E1B21A1680431700EE4CFB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7E1B14D168034DD00EE4CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E1B15E168034DD00EE4CFB /* InfoPlist.strings in Resources */,
+				E7E1B166168034DD00EE4CFB /* Default.png in Resources */,
+				E7E1B168168034DD00EE4CFB /* Default@2x.png in Resources */,
+				E7E1B16A168034DD00EE4CFB /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7E1B14B168034DD00EE4CFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E1B160168034DD00EE4CFB /* main.m in Sources */,
+				E7E1B164168034DD00EE4CFB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7E1B15C168034DD00EE4CFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7E1B15D168034DD00EE4CFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7E1B16B168034DD00EE4CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../include\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7E1B16C168034DD00EE4CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../include\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7E1B16E168034DD00EE4CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PantominePop/PantominePop-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Pantomime/Framework/",
+					"$(SRCROOT)/Pantomime/openssl/openssl/include",
+				);
+				INFOPLIST_FILE = "PantominePop/PantominePop-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E7E1B16F168034DD00EE4CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PantominePop/PantominePop-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Pantomime/Framework/",
+					"$(SRCROOT)/Pantomime/openssl/openssl/include",
+				);
+				INFOPLIST_FILE = "PantominePop/PantominePop-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7E1B149168034DD00EE4CFB /* Build configuration list for PBXProject "PantominePop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E1B16B168034DD00EE4CFB /* Debug */,
+				E7E1B16C168034DD00EE4CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7E1B16D168034DD00EE4CFB /* Build configuration list for PBXNativeTarget "PantominePop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E1B16E168034DD00EE4CFB /* Debug */,
+				E7E1B16F168034DD00EE4CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7E1B146168034DD00EE4CFB /* Project object */;
+}
